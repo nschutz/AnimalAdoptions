@@ -1,0 +1,44 @@
+Creating the database:
+
+	- Open Visual Studio or Microsoft SQL Server management studio
+	
+	- Select add SQL Server
+
+	- use the following connection string:        csesqlprojectdb.c7may2g7gpea.us-west-2.rds.amazonaws.com:1433
+		
+		- Username: franklm
+
+		- Password: thisispassword
+
+	- Run the provided database script on the newly created server
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+To use the system:
+
+	- Launch the app, you will be taken to a category selection screen
+
+	- Select the category of data you would like to search for (Animals, customers, employees, adoptions) or to edit the data
+
+	- The options for searching will be displayed in a window along with instructions for their input
+
+	- you may navigate back to the home screen at any time. Exiting any window exits the whole program 
+	   (except the graph windows, those can be closed w/o quitting the program)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+READ THIS BEFORE USING ADD/UPDATE/DELETE:
+
+	- When using the add, you need to make sure all of the fields except the id field are filled in 
+	   (ex. if adding an animal, make sure all fields except animalID are filled in)
+
+	- When using the update, make sure all of the fields are filled, including the ID field
+
+	- when deleting, the only field that needs to be filled in is the ID field
+
+
